@@ -1,0 +1,6 @@
+#Sat, 09 Mar 2019 18:14:42 +0000
+
+info.app.version=0.1
+info.app.name=appointmentSystem
+grails.env=development
+info.app.grailsVersion=3.3.9
