@@ -10,6 +10,10 @@ int numberOfPatients
 String description
 String openingTime
 
+static hasMany= [surgerys:Surgery, appointments:Appointment, receptionists: Receptionist, doctors:Doctor, nurses:Nurse]
+
+
+
     static constraints = {
     
 

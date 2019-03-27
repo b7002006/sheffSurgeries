@@ -8,6 +8,8 @@ String recepUsername
 String recepPassword
 int recepPhone
 
+static hasMany= [surgerys:Surgery]
+
     static constraints = {
     
 

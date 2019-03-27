@@ -9,6 +9,7 @@ int totalCost
 Date dateIssued
 String patientPaying
 
+static hasMany= [doctors:Doctor, patients:Patient]
 
 
     static constraints = {

@@ -1,17 +1,18 @@
-package appointmentsystem
+package appointmentSystem
 
 class BootStrap {
 
     def init = { servletContext ->
-
+/*
 //define objects
 
 //Appointment
 def app1= new Appointment(
 appDate: new Date ('10/10/2019'),
-appTime: '10:00am'
-appDuration: '30',
-roomNumber: 'A-1111'
+appTime: '10:00am',
+appDuration: 30,
+roomNumber: 'A-1111',
+patient: patient1
 ).save()
 
 
@@ -24,7 +25,7 @@ position: 'Head',
 doctorEmail: 'david@tennant.com',
 password: 'Allonsy',
 doctorOffice: 'A-1000',
-doctorPhone: '01234567891',
+doctorPhone: '01234567899',
 bio: 'brilliant'
 ).save()
 
@@ -35,30 +36,38 @@ nurseName: 'Martha Jones',
 qualifications: 'NMC',
 nurseEmail: 'martha@jones.com',
 nurseOffice: 'B-1000',
-nursePhone: '12345678912'
+nursePhone: 12345678912
 ).save()
 
 
 
-//patient
+//patientPatient(
+patientName: 'Sarah-Jane Smith',
+patientAddress: '13 Bannerman Road',
+patientResidence: 'Ealing',
+patientDob: new Date ('01/02/1946'),
+patientID: 123,
+dateRegistered: new Date ('18/09/1966'),
+patientPhone: 23456789012
+).save()
 
 def patient1= new Patient(
 patientName: 'Sarah-Jane Smith',
 patientAddress: '13 Bannerman Road',
 patientResidence: 'Ealing',
 patientDob: new Date ('01/02/1946'),
-patientID: '123',
+patientID: 123,
 dateRegistered: new Date ('18/09/1966'),
-patientPhone: '23456789012'
+patientPhone: 23456789012
 ).save()
 
 //prescription
 
 def prescription1= new Prescription(
 pharmacyName: 'Co-op Pharmacy',
-pharmacyNumber: '123',
+pharmacyNumber: 123,
 medicine: 'Paracetomol',
-totalCost: '6.50',
+totalCost: 6.50,
 dateIssued: new Date ('25/06/2018'),
 patientPaying: 'Y'
 ).save()
@@ -77,16 +86,25 @@ def surgery1= new Surgery(
 name: 'Ealing Pharmacy',
 address: 'Pitshanger, London',
 postcode: 'W5 1AH',
-telephone: '45678901234',
-numberOfPatients: '74',
+telephone: 45678901234,
+numberOfPatients: 74,
 description: 'a pharmacy',
 openingTime: '8:30am'
 ).save()
 
+//relationships
+
+doctor1.addToPrescriptions(prescription1)
+doctor1.addToAppointments(app1)
+
+patient1.addToPrescriptions(prescription1)
+
+surgery1.addToDoctors(doctor1)
+surgery1.addToReceptionist(recep1)
+surgery1.addToNurse(nurse1)
 
 
-
-
+*/
 
 
 
