@@ -4,3 +4,4 @@ class PatientController {
 
     def scaffold= Patient
 }
+
