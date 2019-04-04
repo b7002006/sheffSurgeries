@@ -8,7 +8,7 @@ String medicine
 String totalCost
 Date dateIssued
 String patientPaying
-
+int daysofSupply
 static hasMany=[patients:Patient, doctors:Doctor]
 
 String toString()
@@ -28,6 +28,7 @@ medicine nullable:false, blank:false
 totalCost nullable:false, blank:false
 dateIssued nullable:false, blank:false
 patientPaying nullable:false, blank:false
+daysofSupply nullable:false, blank:false
 
 }
 
