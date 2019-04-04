@@ -17,7 +17,7 @@
 
 	<button type="button" class="btn btn-success">
 
-		<g:link controller="Receptionist" action="Search"> A Search</g:link>
+		<g:link controller="Prescription" action="Search"> A Search</g:link>
 
 	</button>
 

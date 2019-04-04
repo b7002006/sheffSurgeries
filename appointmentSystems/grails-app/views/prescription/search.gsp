@@ -2,19 +2,17 @@
 <html>
     <head>
         <meta name="layout" content="main" />
-        
         <title>sheff surgeries search</title>
 </head>
 
 <div class="row">
-<h1>Sreda Student Enrolment System</h1>
 
 <formset>
-<legend>Search for Patients</legend>
+<legend>Search for Prescriptions</legend>
 <g:form action="results">
 
-<label for="name">Patient Name</label>
-<g:textField name="name"/>
+<label for="medicine">Prescriptions</label>
+<g:textField name="medicine"/>
 <g:submitButton name="search" value="Search" />
 </g:form>
 </formset>

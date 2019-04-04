@@ -21,7 +21,7 @@
 <table>
         <tr class="prop">
           <td class="name">
-            <label for="recepUsername">Username:</label>
+            <label for="recepUsername">Receptionist Username:</label>
           </td>
           <td class="value">
             <input type="text" id="recepUsername" name="recepUsername" value="">
