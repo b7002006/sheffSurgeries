@@ -1,6 +1,43 @@
 <!doctype html>
 <html>
 <head>
+<style>
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  font-size:44px;
+  color: navy;
+
+  
+}
+p {
+font-size:24px;
+color: navy;
+
+
+}
+div {
+font-size:16px;
+color: navy;
+display: block;
+}
+button{
+ color: navy;
+ background-color: white;
+ font-size: 16px;
+ padding: 8px 16px;
+ border-radius: 8px;
+
+
+}
+</style>
+
+
+
+
+
 	<meta name="layout" content="main"/>
 
 	<title> receptionist </title>
@@ -119,7 +156,7 @@
 
 	<button type="button" class="btn btn-success">
 
-		<g:link controller="Nurse" action="index"> Add nurse</g:link>
+		<g:link controller="Nurse" action="index"> List nurse</g:link>
 
 	</button>
 
@@ -131,7 +168,7 @@
 
 	<button type="button" class="btn btn-success">
 
-		<g:link controller="Patient" action="index"> Add Patient</g:link>
+		<g:link controller="Patient" action="index"> List Patient</g:link>
 
 	</button>
 

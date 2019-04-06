@@ -1,5 +1,8 @@
 <!doctype html>
+
+
 <html>
+
 <head>
     <meta name="layout" content="main"/>
     <title>Sheffield-Surgeries</title>
@@ -12,11 +15,17 @@
 
 <div class="row">
 
-	<asset:image src="david.jpg"/>
+	
 </div>
 
     </section>
 </div>
+
+<p>
+
+this is a thing for doctors who do stuff
+
+</p>
 
 </body>
 </html>

@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html>
     <head>
+<style>
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  font-size:38px;
+  color: navy;
+}
+p {
+font-size:24px;
+color: navy;
+
+
+}
+label {
+font-size:24px;
+color: navy;
+}
+
+input[type="submit"] {
+ color: white;
+ background-color: navy;
+ font-size: 16px;
+ padding: 8px 16px;
+ border-radius: 8px;
+ opacity: 0.7;
+ transition: 0.4s;
+ cursor: pointer;
+
+}
+input[type="submit"]:hover {
+opacity: 1;
+background-color: blue;
+}
+
+a:link, a:visited {
+  background-color: navy;
+  color: white;
+  display: block;
+  padding: 8px 16px;
+  border-radius: 8px;
+ border: 2px solid lightgray;
+}
+a:hover, a:active {
+  background-color: blue;
+  display: block;
+  opacity: 0.7;
+  transition: 0.4s;
+  opacity: 1;
+  cursor: pointer;
+}
+
+</style>
         <meta name="layout" content="main" />
         
         <title>receptionists</title>
     </head>
     <body>
+
+<h1> Receptionist Login </h1>
 
 	<g:if test="${flash.message}">
 
@@ -35,7 +91,7 @@
           </td></tr>
         <tr><td></td>
           <td>
-            <input type="submit" value="login"/>
+            <input type="submit" value="Login"/>
           </td></tr>
       </table>
     </g:form>

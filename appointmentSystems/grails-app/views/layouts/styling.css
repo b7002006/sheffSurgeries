@@ -1,0 +1,17 @@
+ body {
+  background-color: green;
+}
+title{
+color: red;
+
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+p {
+color: red;
+font-family: Arial;
+}
