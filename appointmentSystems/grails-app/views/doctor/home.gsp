@@ -34,7 +34,7 @@ button{
 
 }
 </style>
-	<meta name="layout" content="main"/>
+	<meta name="layout" content="maindoctor"/>
 
 	<title> doctors </title>
 

@@ -55,7 +55,7 @@ a:hover, a:active {
 
 </style>
 
-        <meta name="layout" content="main" />
+        <meta name="layout" content="mainlogindoctor" />
         
         <title>doctors</title>
     </head>

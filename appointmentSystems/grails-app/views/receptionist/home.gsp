@@ -36,9 +36,7 @@ button{
 
 
 
-
-
-	<meta name="layout" content="main"/>
+	<meta name="layout" content="mainreceptionist"/>
 
 	<title> receptionist </title>
 
